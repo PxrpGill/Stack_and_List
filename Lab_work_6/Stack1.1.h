@@ -56,6 +56,7 @@ struct TStack {
 		}
 	}
 
+	//Удаление элемента из стека
 	void pop_element_from_stack(int element_to_del) {
 		if (top->value == element_to_del) {
 			top = top->next;

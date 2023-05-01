@@ -51,6 +51,7 @@ struct Stack {
 			return false;
 	}
 
+	//удаление элемента из стека
 	void pop_element_from_stack(int element_to_del) {
 		int count_of_nice_elements = 0;
 
